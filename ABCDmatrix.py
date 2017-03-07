@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit as opt
 
 
-def linear_fun(x, A, B):
-    return A * x + B
+def linear_fun(x, a, b):
+    return a * x + b
 
 
-def quadratic_fun(x, A, B, C):
-    return A * x ** 2 + B * x + C
+def quadratic_fun(x, a, b, c):
+    return a * x ** 2 + b * x + c
 
 
 file = r'sciezka-do-pliku'
